@@ -43,6 +43,15 @@ body {
   text-align: center;
 }
 
+a:-webkit-any-link {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:-webkit-any-link:hover {
+  text-decoration: underline;
+}
+
 .social {
   display: inline-block;
   padding: 0 5px;
@@ -52,6 +61,11 @@ body {
   width: 1.5rem;
   aspect-ratio: 1 / 1;
   vertical-align: middle;
+}
+
+.fa-brands:hover {
+  color: #b7b7b7;
+  transition: 0.5s;
 }
 
 /* ------------------------- */
